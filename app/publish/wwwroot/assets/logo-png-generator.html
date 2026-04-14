@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG to PNG Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .preview {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #3f51b5;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #303f9f;
+    }
+    .instructions {
+      background-color: #f5f5f5;
+      padding: 15px;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>SVG to PNG Converter для AcaTime</h1>
+  
+  <div class="container">
+    <div class="preview">
+      <div>
+        <h3>Логотип (SVG)</h3>
+        <img src="logo.svg" alt="Logo SVG" id="logoSvg" width="200">
+      </div>
+      <div>
+        <h3>Favicon (SVG)</h3>
+        <img src="favicon.svg" alt="Favicon SVG" id="faviconSvg" width="64">
+      </div>
+    </div>
+    
+    <div>
+      <button id="convertLogo">Конвертувати логотип в PNG</button>
+      <button id="convertFavicon">Конвертувати favicon в PNG</button>
+    </div>
+    
+    <div class="preview">
+      <div>
+        <h3>Логотип (PNG)</h3>
+        <canvas id="logoCanvas" width="512" height="512"></canvas>
+      </div>
+      <div>
+        <h3>Favicon (PNG)</h3>
+        <canvas id="faviconCanvas" width="64" height="64"></canvas>
+      </div>
+    </div>
+    
+    <div class="instructions">
+      <h3>Інструкції:</h3>
+      <ol>
+        <li>Натисніть кнопку "Конвертувати логотип в PNG" для створення PNG версії логотипу</li>
+        <li>Натисніть кнопку "Конвертувати favicon в PNG" для створення PNG версії favicon</li>
+        <li>Клікніть правою кнопкою миші на зображенні та виберіть "Зберегти зображення як..."</li>
+        <li>Збережіть файли як "logo.png" та "favicon.png" відповідно</li>
+      </ol>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('convertLogo').addEventListener('click', function() {
+      const svg = document.getElementById('logoSvg');
+      const canvas = document.getElementById('logoCanvas');
+      const ctx = canvas.getContext('2d');
+      
+      const img = new Image();
+      img.onload = function() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      };
+      img.src = 'logo.svg';
+    });
+    
+    document.getElementById('convertFavicon').addEventListener('click', function() {
+      const svg = document.getElementById('faviconSvg');
+      const canvas = document.getElementById('faviconCanvas');
+      const ctx = canvas.getContext('2d');
+      
+      const img = new Image();
+      img.onload = function() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      };
+      img.src = 'favicon.svg';
+    });
+  </script>
+</body>
+</html> 

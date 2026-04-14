@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#ffffff" />
+  
+  <!-- Циферблат годинника -->
+  <circle cx="256" cy="256" r="200" fill="#FFF" stroke="#005BBB" stroke-width="8" />
+  
+  <!-- Жовта смуга (український прапор) -->
+  <path d="M256 56 A200 200 0 0 1 456 256 L256 256 Z" fill="#FFD500" />
+  
+  <!-- Позначки годин -->
+  <line x1="256" y1="76" x2="256" y2="96" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="346" y1="106" x2="336" y2="122" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="406" y1="196" x2="386" y2="206" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="436" y1="256" x2="416" y2="256" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="406" y1="316" x2="386" y2="306" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="346" y1="406" x2="336" y2="386" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="256" y1="436" x2="256" y2="416" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="166" y1="406" x2="176" y2="386" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="106" y1="316" x2="126" y2="306" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="76" y1="256" x2="96" y2="256" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="106" y1="196" x2="126" y2="206" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  <line x1="166" y1="106" x2="176" y2="122" stroke="#005BBB" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Стрілки годинника -->
+  <line x1="256" y1="256" x2="256" y2="156" stroke="#005BBB" stroke-width="10" stroke-linecap="round" />
+  <line x1="256" y1="256" x2="336" y2="256" stroke="#005BBB" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Центр годинника -->
+  <circle cx="256" cy="256" r="15" fill="#005BBB" />
+  
+  <!-- Університетська колона -->
+  <rect x="226" y="100" width="60" height="30" rx="2" fill="#005BBB" />
+  <rect x="236" y="130" width="40" height="60" fill="#005BBB" />
+  <rect x="226" y="190" width="60" height="10" rx="2" fill="#005BBB" />
+  
+  <!-- Академічна шапка -->
+  <path d="M256 70 L196 100 L256 130 L316 100 Z" fill="#FFD500" stroke="#005BBB" stroke-width="2" />
+  <path d="M196 100 L196 140 L256 170 L316 140 L316 100" stroke="#005BBB" stroke-width="0" fill="#FFD500" fill-opacity="0.6" />
+  <line x1="256" y1="130" x2="256" y2="170" stroke="#005BBB" stroke-width="2" />
+  <line x1="286" y1="100" x2="286" y2="140" stroke="#005BBB" stroke-width="2" />
+  
+  <!-- Текст -->
+  <path d="M170 350 Q256 380 342 350" stroke="#005BBB" stroke-width="6" fill="none" />
+  <text x="256" y="390" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+</svg> 

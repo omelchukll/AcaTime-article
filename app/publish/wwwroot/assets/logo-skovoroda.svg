@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#ffffff" />
+  
+  <!-- Силует Григорія Сковороди (стилізований) -->
+  <path d="M196 180 C196 180 186 190 186 210 C186 230 196 240 196 240 L196 300 L316 300 L316 240 C316 240 326 230 326 210 C326 190 316 180 316 180 Z" fill="#333333" />
+  
+  <!-- Обличчя -->
+  <ellipse cx="256" cy="210" rx="50" ry="60" fill="#F5D7B5" />
+  
+  <!-- Борода -->
+  <path d="M226 230 C226 230 246 280 256 280 C266 280 286 230 286 230 L286 250 C286 250 266 290 256 290 C246 290 226 250 226 250 Z" fill="#333333" />
+  
+  <!-- Вуса -->
+  <path d="M226 230 C226 230 246 240 256 240 C266 240 286 230 286 230 Z" fill="#333333" />
+  
+  <!-- Брови -->
+  <path d="M226 200 C226 200 236 195 246 195 C256 195 256 200 256 200" stroke="#333333" stroke-width="2" />
+  <path d="M286 200 C286 200 276 195 266 195 C256 195 256 200 256 200" stroke="#333333" stroke-width="2" />
+  
+  <!-- Очі -->
+  <ellipse cx="236" cy="210" rx="5" ry="3" fill="#333333" />
+  <ellipse cx="276" cy="210" rx="5" ry="3" fill="#333333" />
+  
+  <!-- Ніс -->
+  <path d="M256 205 L256 225 C256 225 251 230 256 230 C261 230 256 225 256 225 Z" fill="#E5C7A5" />
+  
+  <!-- Волосся та перука -->
+  <path d="M196 180 C196 180 216 150 256 150 C296 150 316 180 316 180 C316 180 296 160 256 160 C216 160 196 180 196 180 Z" fill="#333333" />
+  <path d="M196 180 C196 180 216 170 256 170 C296 170 316 180 316 180 Z" fill="#333333" />
+  <path d="M196 180 C196 180 186 200 186 210 C186 220 196 240 196 240 C196 240 176 220 176 210 C176 200 196 180 196 180 Z" fill="#333333" />
+  <path d="M316 180 C316 180 326 200 326 210 C326 220 316 240 316 240 C316 240 336 220 336 210 C336 200 316 180 316 180 Z" fill="#333333" />
+  
+  <!-- Годинник -->
+  <circle cx="256" cy="350" r="40" fill="#ffffff" stroke="#005BBB" stroke-width="3" />
+  <line x1="256" y1="350" x2="256" y2="325" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <line x1="256" y1="350" x2="275" y2="350" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <circle cx="256" cy="350" r="4" fill="#005BBB" />
+  
+  <!-- Напис "Григорій Сковорода" -->
+  <text x="256" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#005BBB">ГРИГОРІЙ СКОВОРОДА</text>
+  
+  <!-- Текст AcaTime -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+  
+  <!-- Український прапор -->
+  <rect x="226" y="140" width="5" height="20" fill="#7a7a7a" />
+  <rect x="231" y="130" width="20" height="10" fill="#005BBB" />
+  <rect x="231" y="140" width="20" height="10" fill="#FFD500" />
+  
+  <!-- Книга та перо -->
+  <path d="M196 300 L196 320 L316 320 L316 300 Z" fill="#8B4513" />
+  <path d="M196 300 L196 320 L256 310 L316 320 L316 300 Z" fill="#8B4513" />
+  <path d="M196 300 L256 290 L316 300 Z" fill="#8B4513" />
+  <path d="M316 300 L336 280 L326 290 L336 300 Z" fill="#FFFFFF" stroke="#333333" stroke-width="1" />
+</svg> 

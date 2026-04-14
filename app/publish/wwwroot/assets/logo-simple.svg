@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#FFD500" />
+  
+  <!-- Книжки (стилізовані) -->
+  <rect x="156" y="200" width="40" height="180" rx="5" fill="#005BBB" />
+  <rect x="160" y="204" width="32" height="172" rx="3" fill="#FFD500" />
+  
+  <rect x="196" y="180" width="50" height="200" rx="5" fill="#005BBB" />
+  <rect x="201" y="185" width="40" height="190" rx="3" fill="#FFD500" />
+  
+  <rect x="246" y="160" width="60" height="220" rx="5" fill="#005BBB" />
+  <rect x="252" y="166" width="48" height="208" rx="3" fill="#FFD500" />
+  
+  <rect x="306" y="180" width="50" height="200" rx="5" fill="#005BBB" />
+  <rect x="311" y="185" width="40" height="190" rx="3" fill="#FFD500" />
+  
+  <!-- Пісочний годинник -->
+  <path d="M246 160 L316 160 L296 220 L316 280 L246 280 L266 220 Z" fill="#005BBB" />
+  <path d="M252 166 L310 166 L296 220 L310 274 L252 274 L266 220 Z" fill="#FFD500" />
+  
+  <!-- Пісок у годиннику -->
+  <path d="M252 220 L310 220 L296 240 L266 240 Z" fill="#005BBB" />
+  <path d="M266 240 L296 240 L310 274 L252 274 Z" fill="#005BBB" />
+  
+  <!-- Текст AcaTime -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+</svg> 

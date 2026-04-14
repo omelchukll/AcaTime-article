@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#ffffff" />
+  
+  <!-- Києво-Могилянська академія (стилізована) -->
+  <path d="M156 180 L256 130 L356 180 L356 320 L156 320 Z" fill="#005BBB" />
+  <path d="M166 190 L256 145 L346 190 L346 310 L166 310 Z" fill="#ffffff" />
+  
+  <!-- Колони -->
+  <rect x="186" y="190" width="15" height="120" fill="#005BBB" />
+  <rect x="216" y="190" width="15" height="120" fill="#005BBB" />
+  <rect x="246" y="190" width="15" height="120" fill="#005BBB" />
+  <rect x="276" y="190" width="15" height="120" fill="#005BBB" />
+  <rect x="306" y="190" width="15" height="120" fill="#005BBB" />
+  
+  <!-- Верхня частина будівлі -->
+  <path d="M156 180 L176 160 L336 160 L356 180 Z" fill="#FFD500" />
+  
+  <!-- Купол -->
+  <path d="M236 160 L236 130 L276 130 L276 160 Z" fill="#005BBB" />
+  <path d="M236 130 A20 20 0 0 1 276 130" fill="#005BBB" />
+  <circle cx="256" cy="110" r="10" fill="#FFD500" />
+  
+  <!-- Годинник на будівлі -->
+  <circle cx="256" cy="220" r="30" fill="#ffffff" stroke="#005BBB" stroke-width="3" />
+  <line x1="256" y1="220" x2="256" y2="200" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <line x1="256" y1="220" x2="270" y2="220" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <circle cx="256" cy="220" r="3" fill="#005BBB" />
+  
+  <!-- Сходи -->
+  <rect x="196" y="310" width="120" height="10" fill="#005BBB" />
+  <rect x="206" y="320" width="100" height="10" fill="#005BBB" />
+  <rect x="216" y="330" width="80" height="10" fill="#005BBB" />
+  
+  <!-- Напис "Києво-Могилянська Академія" -->
+  <text x="256" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#005BBB">КИЄВО-МОГИЛЯНСЬКА</text>
+  <text x="256" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#005BBB">АКАДЕМІЯ</text>
+  
+  <!-- Текст AcaTime -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+  
+  <!-- Український прапор -->
+  <rect x="246" y="90" width="5" height="20" fill="#7a7a7a" />
+  <rect x="251" y="80" width="15" height="10" fill="#005BBB" />
+  <rect x="251" y="90" width="15" height="10" fill="#FFD500" />
+</svg> 

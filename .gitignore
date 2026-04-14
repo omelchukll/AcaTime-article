@@ -1,0 +1,3 @@
+# Build scripts (optional — only needed if regenerating artifacts from source)
+build.ps1
+build.sh

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#3f51b5" />
+  <circle cx="256" cy="256" r="220" fill="#ffffff" />
+  
+  <!-- Циферблат годинника -->
+  <circle cx="256" cy="256" r="200" fill="#f5f5f5" stroke="#3f51b5" stroke-width="8" />
+  
+  <!-- Позначки годин -->
+  <line x1="256" y1="76" x2="256" y2="96" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="346" y1="106" x2="336" y2="122" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="406" y1="196" x2="386" y2="206" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="436" y1="256" x2="416" y2="256" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="406" y1="316" x2="386" y2="306" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="346" y1="406" x2="336" y2="386" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="256" y1="436" x2="256" y2="416" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="166" y1="406" x2="176" y2="386" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="106" y1="316" x2="126" y2="306" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="76" y1="256" x2="96" y2="256" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="106" y1="196" x2="126" y2="206" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  <line x1="166" y1="106" x2="176" y2="122" stroke="#3f51b5" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Стрілки годинника -->
+  <line x1="256" y1="256" x2="256" y2="156" stroke="#3f51b5" stroke-width="10" stroke-linecap="round" />
+  <line x1="256" y1="256" x2="336" y2="256" stroke="#ff4081" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Центр годинника -->
+  <circle cx="256" cy="256" r="15" fill="#3f51b5" />
+  
+  <!-- Академічна шапка -->
+  <path d="M256 120 L196 150 L256 180 L316 150 Z" fill="#3f51b5" />
+  <path d="M196 150 L196 190 L256 220 L316 190 L316 150" stroke="#3f51b5" stroke-width="0" fill="#3f51b5" fill-opacity="0.6" />
+  <line x1="256" y1="180" x2="256" y2="220" stroke="#3f51b5" stroke-width="2" />
+  
+  <!-- Текст -->
+  <path d="M170 350 Q256 380 342 350" stroke="#3f51b5" stroke-width="6" fill="none" />
+  <text x="256" y="390" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#3f51b5">AcaTime</text>
+</svg> 

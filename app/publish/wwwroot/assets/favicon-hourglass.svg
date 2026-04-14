@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="32" cy="32" r="32" fill="#005BBB" />
+  <circle cx="32" cy="32" r="28" fill="#FFD500" />
+  
+  <!-- Пісочний годинник (центральний елемент) -->
+  <path d="M20 16 L44 16 L44 20 L40 20 L40 24 L36 32 L40 40 L40 44 L44 44 L44 48 L20 48 L20 44 L24 44 L24 40 L28 32 L24 24 L24 20 L20 20 Z" fill="#005BBB" />
+  
+  <!-- Скло годинника -->
+  <path d="M22 18 L42 18 L42 20 L38 20 L38 24 L34 32 L38 40 L38 44 L42 44 L42 46 L22 46 L22 44 L26 44 L26 40 L30 32 L26 24 L26 20 L22 20 Z" fill="#FFD500" />
+  
+  <!-- Пісок у годиннику -->
+  <path d="M26 24 L38 24 L34 32 L30 32 Z" fill="#005BBB" />
+  <path d="M26 40 L38 40 L38 44 L26 44 Z" fill="#005BBB" />
+</svg> 

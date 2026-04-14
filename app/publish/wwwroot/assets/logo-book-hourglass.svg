@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#FFD500" />
+  
+  <!-- Відкрита книга -->
+  <!-- Ліва сторінка -->
+  <path d="M136 180 C136 180 176 170 256 170 L256 330 C176 330 136 320 136 320 L136 180 Z" fill="#005BBB" />
+  <path d="M146 185 C146 185 186 175 251 175 L251 320 C186 320 146 315 146 315 L146 185 Z" fill="#FFD500" />
+  
+  <!-- Права сторінка -->
+  <path d="M376 180 C376 180 336 170 256 170 L256 330 C336 330 376 320 376 320 L376 180 Z" fill="#005BBB" />
+  <path d="M366 185 C366 185 326 175 261 175 L261 320 C326 320 366 315 366 315 L366 185 Z" fill="#FFD500" />
+  
+  <!-- Корінець книги -->
+  <path d="M256 170 L256 330" stroke="#005BBB" stroke-width="5" />
+  
+  <!-- Лінії на сторінках (текст) -->
+  <line x1="166" y1="200" x2="236" y2="200" stroke="#005BBB" stroke-width="2" />
+  <line x1="166" y1="220" x2="236" y2="220" stroke="#005BBB" stroke-width="2" />
+  <line x1="166" y1="240" x2="236" y2="240" stroke="#005BBB" stroke-width="2" />
+  <line x1="166" y1="260" x2="236" y2="260" stroke="#005BBB" stroke-width="2" />
+  <line x1="166" y1="280" x2="236" y2="280" stroke="#005BBB" stroke-width="2" />
+  <line x1="166" y1="300" x2="236" y2="300" stroke="#005BBB" stroke-width="2" />
+  
+  <!-- Пісочний годинник на правій сторінці -->
+  <path d="M276 200 L346 200 L346 210 L336 210 L336 220 L326 250 L336 280 L336 290 L346 290 L346 300 L276 300 L276 290 L286 290 L286 280 L296 250 L286 220 L286 210 L276 210 Z" fill="#005BBB" />
+  
+  <!-- Скло годинника -->
+  <path d="M281 205 L341 205 L341 210 L331 210 L331 220 L321 250 L331 280 L331 290 L341 290 L341 295 L281 295 L281 290 L291 290 L291 280 L301 250 L291 220 L291 210 L281 210 Z" fill="#FFD500" />
+  
+  <!-- Пісок у годиннику -->
+  <path d="M291 220 L331 220 L321 240 L301 240 Z" fill="#005BBB" />
+  <path d="M291 280 L331 280 L331 290 L291 290 Z" fill="#005BBB" />
+  
+  <!-- Текст AcaTime -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+</svg> 

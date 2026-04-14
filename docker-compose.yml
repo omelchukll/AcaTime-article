@@ -1,0 +1,71 @@
+version: '3.8'
+
+name: acatime-demo
+
+services:
+
+  # PostgreSQL 16 pre-loaded with anonymized test data
+  db:
+    container_name: acatime-demo-db
+    image: postgres:17
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_DB: acadb
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      # SQL dump is placed here by build.ps1 / build.sh
+      - ./db/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    ports:
+      - "5432:5432"
+    healthcheck:
+      # Wait until 'acadb' database is fully loaded and accepting queries
+      # Force TCP (-h 127.0.0.1): during init PG listens only on Unix socket;
+      # TCP becomes available only AFTER all init scripts finish and PG restarts.
+      test: ["CMD-SHELL", "pg_isready -U postgres -h 127.0.0.1 -d acadb"]
+      interval: 20s
+      timeout: 10s
+      retries: 40
+      # The ~355 MB dump can take 3-10 minutes on first start
+      start_period: 300s
+    networks:
+      - acatime-network
+
+  # AcaTime web application (ASP.NET Core 8 + Angular 19 SPA)
+  app:
+    container_name: acatime-demo-app
+    build:
+      # Build context is docker/app/ — pre-built publish artifacts must be present
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: "Host=db;Database=acadb;Username=postgres;Password=postgres_password"
+      ASPNETCORE_URLS: http://+:80
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      Serilog__MinimumLevel__Default: Information
+      Serilog__WriteTo__0__Name: Console
+      Serilog__WriteTo__1__Name: File
+      Serilog__WriteTo__1__Args__path: /app/logs/acatime.log
+      DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: "false"
+      TZ: Europe/Kyiv
+    volumes:
+      - app-logs:/app/logs
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - acatime-network
+
+volumes:
+  postgres-data:
+    name: acatime-demo-postgres-data
+  app-logs:
+    name: acatime-demo-app-logs
+
+networks:
+  acatime-network:
+    name: acatime-demo-network
+    driver: bridge

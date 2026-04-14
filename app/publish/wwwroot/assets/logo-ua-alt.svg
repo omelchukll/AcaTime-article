@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#ffffff" />
+  
+  <!-- Університетська будівля -->
+  <rect x="136" y="180" width="240" height="160" fill="#005BBB" />
+  <rect x="146" y="190" width="220" height="140" fill="#ffffff" />
+  
+  <!-- Колони -->
+  <rect x="166" y="190" width="20" height="140" fill="#005BBB" />
+  <rect x="216" y="190" width="20" height="140" fill="#005BBB" />
+  <rect x="266" y="190" width="20" height="140" fill="#005BBB" />
+  <rect x="316" y="190" width="20" height="140" fill="#005BBB" />
+  
+  <!-- Дах -->
+  <path d="M126 180 L256 120 L386 180 Z" fill="#FFD500" />
+  
+  <!-- Годинник на будівлі -->
+  <circle cx="256" cy="150" r="30" fill="#ffffff" stroke="#005BBB" stroke-width="4" />
+  <line x1="256" y1="150" x2="256" y2="135" stroke="#005BBB" stroke-width="3" stroke-linecap="round" />
+  <line x1="256" y1="150" x2="270" y2="150" stroke="#005BBB" stroke-width="3" stroke-linecap="round" />
+  <circle cx="256" cy="150" r="3" fill="#005BBB" />
+  
+  <!-- Сходи -->
+  <rect x="186" y="330" width="140" height="10" fill="#005BBB" />
+  <rect x="196" y="340" width="120" height="10" fill="#005BBB" />
+  <rect x="206" y="350" width="100" height="10" fill="#005BBB" />
+  
+  <!-- Український прапор -->
+  <rect x="246" y="90" width="20" height="30" fill="#7a7a7a" />
+  <rect x="266" y="70" width="40" height="20" fill="#005BBB" />
+  <rect x="266" y="90" width="40" height="20" fill="#FFD500" />
+  
+  <!-- Текст -->
+  <text x="256" y="400" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+  
+  <!-- Розклад занять -->
+  <rect x="366" y="220" width="60" height="80" rx="4" fill="#005BBB" />
+  <rect x="371" y="225" width="50" height="70" rx="2" fill="#ffffff" />
+  <line x1="371" y1="235" x2="421" y2="235" stroke="#005BBB" stroke-width="1" />
+  <line x1="371" y1="245" x2="421" y2="245" stroke="#005BBB" stroke-width="1" />
+  <line x1="371" y1="255" x2="421" y2="255" stroke="#005BBB" stroke-width="1" />
+  <line x1="371" y1="265" x2="421" y2="265" stroke="#005BBB" stroke-width="1" />
+  <line x1="371" y1="275" x2="421" y2="275" stroke="#005BBB" stroke-width="1" />
+  <line x1="371" y1="285" x2="421" y2="285" stroke="#005BBB" stroke-width="1" />
+</svg> 

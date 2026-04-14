@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#ffffff" />
+  
+  <!-- Розклад занять (основа) -->
+  <rect x="156" y="126" width="200" height="260" rx="8" fill="#005BBB" />
+  <rect x="166" y="136" width="180" height="240" rx="4" fill="#ffffff" />
+  
+  <!-- Заголовок розкладу -->
+  <rect x="166" y="136" width="180" height="30" rx="4" fill="#FFD500" />
+  <text x="256" y="157" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#005BBB">РОЗКЛАД ЗАНЯТЬ</text>
+  
+  <!-- Дні тижня -->
+  <text x="186" y="187" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#005BBB">ПН</text>
+  <text x="226" y="187" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#005BBB">ВТ</text>
+  <text x="256" y="187" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#005BBB">СР</text>
+  <text x="286" y="187" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#005BBB">ЧТ</text>
+  <text x="326" y="187" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#005BBB">ПТ</text>
+  
+  <!-- Лінії розкладу -->
+  <line x1="166" y1="195" x2="346" y2="195" stroke="#005BBB" stroke-width="1" />
+  <line x1="166" y1="225" x2="346" y2="225" stroke="#005BBB" stroke-width="1" />
+  <line x1="166" y1="255" x2="346" y2="255" stroke="#005BBB" stroke-width="1" />
+  <line x1="166" y1="285" x2="346" y2="285" stroke="#005BBB" stroke-width="1" />
+  <line x1="166" y1="315" x2="346" y2="315" stroke="#005BBB" stroke-width="1" />
+  <line x1="166" y1="345" x2="346" y2="345" stroke="#005BBB" stroke-width="1" />
+  
+  <line x1="206" y1="166" x2="206" y2="376" stroke="#005BBB" stroke-width="1" />
+  <line x1="246" y1="166" x2="246" y2="376" stroke="#005BBB" stroke-width="1" />
+  <line x1="266" y1="166" x2="266" y2="376" stroke="#005BBB" stroke-width="1" />
+  <line x1="306" y1="166" x2="306" y2="376" stroke="#005BBB" stroke-width="1" />
+  
+  <!-- Предмети в розкладі (кольорові блоки) -->
+  <rect x="167" y="196" width="38" height="28" rx="2" fill="#E6F7FF" stroke="#005BBB" stroke-width="0.5" />
+  <rect x="207" y="196" width="38" height="28" rx="2" fill="#FFE7E7" stroke="#005BBB" stroke-width="0.5" />
+  <rect x="247" y="226" width="18" height="28" rx="2" fill="#E6FFE7" stroke="#005BBB" stroke-width="0.5" />
+  <rect x="267" y="226" width="38" height="28" rx="2" fill="#F0E6FF" stroke="#005BBB" stroke-width="0.5" />
+  <rect x="307" y="256" width="38" height="28" rx="2" fill="#FFF9E6" stroke="#005BBB" stroke-width="0.5" />
+  <rect x="167" y="286" width="38" height="28" rx="2" fill="#FFE7F5" stroke="#005BBB" stroke-width="0.5" />
+  <rect x="247" y="316" width="58" height="28" rx="2" fill="#E6FFF9" stroke="#005BBB" stroke-width="0.5" />
+  
+  <!-- Годинник (накладається на розклад) -->
+  <circle cx="256" cy="256" r="60" fill="#ffffff" fill-opacity="0.8" stroke="#005BBB" stroke-width="4" />
+  
+  <!-- Позначки годин на годиннику -->
+  <line x1="256" y1="206" x2="256" y2="216" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <line x1="306" y1="256" x2="296" y2="256" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <line x1="256" y1="306" x2="256" y2="296" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  <line x1="206" y1="256" x2="216" y2="256" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Стрілки годинника -->
+  <line x1="256" y1="256" x2="256" y2="226" stroke="#005BBB" stroke-width="3" stroke-linecap="round" />
+  <line x1="256" y1="256" x2="276" y2="256" stroke="#005BBB" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Центр годинника -->
+  <circle cx="256" cy="256" r="5" fill="#005BBB" />
+  
+  <!-- Текст -->
+  <text x="256" y="400" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+</svg> 

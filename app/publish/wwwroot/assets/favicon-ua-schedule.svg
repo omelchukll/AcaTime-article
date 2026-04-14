@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="32" cy="32" r="32" fill="#005BBB" />
+  <circle cx="32" cy="32" r="28" fill="#ffffff" />
+  
+  <!-- Розклад занять (основа) -->
+  <rect x="20" y="16" width="24" height="32" rx="2" fill="#005BBB" />
+  <rect x="21" y="17" width="22" height="30" rx="1" fill="#ffffff" />
+  
+  <!-- Заголовок розкладу -->
+  <rect x="21" y="17" width="22" height="4" rx="1" fill="#FFD500" />
+  
+  <!-- Лінії розкладу -->
+  <line x1="21" y1="24" x2="43" y2="24" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="21" y1="28" x2="43" y2="28" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="21" y1="32" x2="43" y2="32" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="21" y1="36" x2="43" y2="36" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="21" y1="40" x2="43" y2="40" stroke="#005BBB" stroke-width="0.5" />
+  
+  <line x1="25" y1="21" x2="25" y2="47" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="29" y1="21" x2="29" y2="47" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="33" y1="21" x2="33" y2="47" stroke="#005BBB" stroke-width="0.5" />
+  <line x1="37" y1="21" x2="37" y2="47" stroke="#005BBB" stroke-width="0.5" />
+  
+  <!-- Предмети в розкладі (кольорові блоки) -->
+  <rect x="21.5" y="24.5" width="3" height="3" rx="0.5" fill="#E6F7FF" stroke="#005BBB" stroke-width="0.2" />
+  <rect x="25.5" y="24.5" width="3" height="3" rx="0.5" fill="#FFE7E7" stroke="#005BBB" stroke-width="0.2" />
+  <rect x="29.5" y="28.5" width="3" height="3" rx="0.5" fill="#E6FFE7" stroke="#005BBB" stroke-width="0.2" />
+  <rect x="33.5" y="28.5" width="3" height="3" rx="0.5" fill="#F0E6FF" stroke="#005BBB" stroke-width="0.2" />
+  <rect x="37.5" y="32.5" width="3" height="3" rx="0.5" fill="#FFF9E6" stroke="#005BBB" stroke-width="0.2" />
+  <rect x="21.5" y="36.5" width="3" height="3" rx="0.5" fill="#FFE7F5" stroke="#005BBB" stroke-width="0.2" />
+  <rect x="29.5" y="40.5" width="7" height="3" rx="0.5" fill="#E6FFF9" stroke="#005BBB" stroke-width="0.2" />
+  
+  <!-- Годинник (накладається на розклад) -->
+  <circle cx="32" cy="32" r="8" fill="#ffffff" fill-opacity="0.8" stroke="#005BBB" stroke-width="1" />
+  
+  <!-- Стрілки годинника -->
+  <line x1="32" y1="32" x2="32" y2="27" stroke="#005BBB" stroke-width="1" stroke-linecap="round" />
+  <line x1="32" y1="32" x2="35" y2="32" stroke="#005BBB" stroke-width="0.8" stroke-linecap="round" />
+  
+  <!-- Центр годинника -->
+  <circle cx="32" cy="32" r="1" fill="#005BBB" />
+</svg> 

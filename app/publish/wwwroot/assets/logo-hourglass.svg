@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <circle cx="256" cy="256" r="240" fill="#005BBB" />
+  <circle cx="256" cy="256" r="220" fill="#FFD500" />
+  
+  <!-- Книжки (стилізовані) -->
+  <rect x="136" y="200" width="40" height="180" rx="5" fill="#005BBB" />
+  <rect x="140" y="204" width="32" height="172" rx="3" fill="#FFD500" />
+  <rect x="140" y="204" width="32" height="20" rx="2" fill="#005BBB" opacity="0.3" />
+  
+  <rect x="176" y="180" width="50" height="200" rx="5" fill="#005BBB" />
+  <rect x="181" y="185" width="40" height="190" rx="3" fill="#FFD500" />
+  <rect x="181" y="185" width="40" height="25" rx="2" fill="#005BBB" opacity="0.3" />
+  
+  <!-- Пісочний годинник (центральний елемент) -->
+  <path d="M236 160 L336 160 L336 180 L316 180 L316 200 L296 220 L316 240 L316 260 L336 260 L336 280 L236 280 L236 260 L256 260 L256 240 L276 220 L256 200 L256 180 L236 180 Z" fill="#005BBB" />
+  
+  <!-- Скло годинника -->
+  <path d="M246 170 L326 170 L326 180 L306 180 L306 200 L286 220 L306 240 L306 260 L326 260 L326 270 L246 270 L246 260 L266 260 L266 240 L286 220 L266 200 L266 180 L246 180 Z" fill="#FFD500" />
+  
+  <!-- Пісок у годиннику -->
+  <path d="M266 200 L306 200 L286 220 L266 200 Z" fill="#005BBB" />
+  <path d="M266 240 L306 240 L306 260 L266 260 Z" fill="#005BBB" />
+  
+  <rect x="336" y="180" width="50" height="200" rx="5" fill="#005BBB" />
+  <rect x="341" y="185" width="40" height="190" rx="3" fill="#FFD500" />
+  <rect x="341" y="185" width="40" height="25" rx="2" fill="#005BBB" opacity="0.3" />
+  
+  <!-- Текст AcaTime -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#005BBB">AcaTime</text>
+</svg> 
