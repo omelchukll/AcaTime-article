@@ -1,5 +1,13 @@
 # AcaTime — Docker Quick Start
 
+## What is included
+
+- Anonymized real-world dataset (KNU-based)
+- ITC 2019 dataset import example
+- Precomputed schedule examples
+- Full application (API + UI)
+- PostgreSQL database snapshot
+
 ## Prerequisites
 
 - Docker with Compose plugin installed
